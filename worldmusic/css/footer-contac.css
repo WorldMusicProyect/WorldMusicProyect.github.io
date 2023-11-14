@@ -1,0 +1,133 @@
+/* PIE DE PAGINA */
+
+.pie-pagina {
+    width: 100%;
+    background-color: #000000;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.pie-pagina .grupo-1:before,
+.pie-pagina .grupo-1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.pie-pagina .grupo-1:before {
+    top: 0;
+}
+
+.pie-pagina .grupo-1:after {
+    bottom: 0;
+}
+
+.pie-pagina .grupo-1 .box-1 {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.pie-pagina .grupo-1 .box-1 h2 {
+    color: #ffffffa9;
+    margin-bottom: 25px;
+    font-size: 20px;
+    justify-self: center;
+}
+
+.pie-pagina .grupo-1 .box-1 h2 {
+    color: #efefef;
+}
+
+.pie-pagina .grupo-1 .box-1 div {
+    color: #efefef;
+    margin-bottom: 10px;
+    padding: 13px;
+}
+
+.pie-pagina .grupo-1 .box-1 h3 {
+    color: #efefef;
+    margin-bottom: 5px;
+}
+
+.pie-pagina .grupo-1 .box-1 .visitanos p{
+    color: gray;
+}
+
+.pie-pagina .grupo-1 .box-1 .llamanos p{
+    color: gray;
+}
+
+.pie-pagina .grupo-1 .box-1 .email p{
+    color: gray;
+}
+
+
+.pie-pagina .grupo-1 .box-1 a {
+    color: #e71111; /* Cambiado de #ff0000 */
+    text-decoration: none;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #000000;
+    margin-right: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .red-social .fa-facebook:hover {
+    color: #3b5998;
+}
+
+.pie-pagina .grupo-1 .red-social .fa-instagram:hover {
+    color: #e4405f;
+}
+
+.pie-pagina .grupo-1 .red-social .fa-twitter:hover {
+    color: #00acee;
+}
+
+.pie-pagina .grupo-1 .red-social .fa-youtube:hover {
+    color: #c4302b;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #000000;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff; /* Cambiado de #ffffffa9 */
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+

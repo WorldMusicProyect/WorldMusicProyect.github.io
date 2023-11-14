@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: black;
+    scroll-behavior: smooth;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    padding: 0;
+    margin: 0;
+    width: 4.5em;
+    z-index: 1;
+}
+
+/* Estilo base para el menú de navegación */
+.navbar {
+    padding: 20px 0; /* Espacio alrededor del menú */
+    position: absolute;
+    top: 0;
+    right: 40px;
+  }
+  
+
+/* Estilo para la lista no ordenada (ul) */
+.navbar ul {
+  list-style: none; /* Elimina las viñetas de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Muestra los elementos en línea */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los elementos de la lista (li) */
+.navbar li {
+  margin: 0 15px; /* Espacio entre elementos del menú */
+}
+
+/* Estilo para los enlaces (a) */
+.navbar a {
+    text-decoration: none; /* Elimina la subrayado predeterminado */
+    color: #fff; /* Color de texto de los enlaces */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: color 0.3s; /* Agrega una transición para suavizar el cambio de color */
+  }
+
+/* Estilo para los enlaces (a) cuando están en la posición del mouse */
+.navbar a:hover,
+.navbar a:focus {
+  color: #ff0000; /* Cambia el color al pasar el mouse por encima o hacer foco en el enlace */
+}
+
+/* Estilo para el enlace (a) activo */
+.navbar a.active {
+  color: #ff0000; /* Cambia el color del enlace activo */
+}
+
+.enlace-carrito i.icono-carrito.active {
+  color: #ff0000; /* Color activo deseado */
+  margin-left: 5px;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 77%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 80%;
+    top: 5px;
+   }
+
+.video-publicitario {
+    display: flex;
+     width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .video.publicitario label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  
+  .video-publicitario video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Escala el video para que llene el contenedor */
+    z-index: 0; /* Asegura que el video esté en el fondo */
+  }
+  
+  

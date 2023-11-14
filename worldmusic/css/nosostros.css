@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    color: #ffffff;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.text-1,
+.text-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-1 img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.text-2 img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+
+.info-2 {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission,
+.valor,
+.vision,
+.mantra,
+.objetivo {
+    margin-top: 20px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 3em;
+}
+
+.txt {
+    color: #666;
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 40px auto;
+}
+
+.ventas {
+    text-align: center;
+}
+
+.ventas h2 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 2.5em; /* Ajusta el valor según sea necesario */
+    margin-top: 0;
+}
+

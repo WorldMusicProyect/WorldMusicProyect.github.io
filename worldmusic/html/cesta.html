@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- CABEZA -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito | World Music</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- Enlaces de estilos personalizados -->
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/cesta.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+    <!-- Enlaces de fuentes y estilos externos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Enlace al icono de la página -->
+    <link rel="shortcut icon" href="/img/Mano.png" type="image/x-icon" id="x-icon">
+
+    <!-- Enlace al script de FontAwesome -->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  
+</head> 
+
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+            <img src="/img/Mano.png" class="logo">
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/html/index.html">Inicio</a></li>
+                    <li><a href="/html/sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="/html/tienda.html">Tienda</a></li>
+                    <li><a href="/html/contacto.html">Contacto</a></li>
+                    <div class="vertical-line"></div>
+                    <li>
+                        <div class="enlace-carrito">
+                            <a href="/html/cesta.html" class="active">Carrito</a>
+                            <i class="bi bi-bag-dash icono-carrito active"></i>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </nav>
+
+         </div>
+
+    </header>
+
+<!-- Contenido de cesta.html -->
+<div class="carrito" id="carrito">
+    <h2 class="compras" id="carrito-titulo">Carrito de Compras</h2>
+    <ul id="lista-carrito"></ul>
+    <p class="total" id="total">Total: $0.00</p>
+    <button id="comprar-btn">Comprar</button>
+    <div id="carrito-vacio">
+        <p id="carrito-vacio-texto">Tu carrito está vacío</p>
+        <i class="bi bi-emoji-frown-fill"></i>
+    </div>
+</div>
+
+<script src="/js/cesta.js"></script>
+
+
+</body>
+</html>

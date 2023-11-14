@@ -1,0 +1,53 @@
+/* ESTILOS DE CONTACTO */
+
+.contact-info {
+    max-width: 100%;
+    margin-top: 10px; /* Mueve hacia abajo */
+    margin-left: 20px; /* Mueve hacia la derecha */
+}
+
+.contac {
+    position: relative;
+    width: 35em;
+    height: 25em;
+    border-radius: 8px;
+    top: -24em;
+    left: 50em;
+}
+
+/* Estilos para todos los párrafos dentro de contac */
+.contac p {
+    font-size: 1em;
+    margin-top: 8px; /* Añade espacio entre el título y la información */
+}
+
+.contac h3{
+    font-size: 1em;
+}
+
+.contac .abier{
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+/* Estilos para los diferentes subcontenedores */
+.visitanos, .llamanos, .email, .horario {
+    margin-bottom: 20px; /* Añade espacio entre los subcontenedores */
+}
+
+/* Estilos específicos para el subcontenedor "hora" */
+.contac .hora {
+    white-space: pre-line;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+/* Estilos para los enlaces dentro de los párrafos */
+.contac a {
+    color: #e71111; /* Cambia el color del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+.contac a:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el ratón sobre el enlace */
+}

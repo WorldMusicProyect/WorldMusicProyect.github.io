@@ -1,0 +1,59 @@
+/* ESTILOS DE GUITARRA FONDO INDEX */
+.container-fondo {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    margin-bottom: 120px;
+}
+
+.guitarra-fondo {
+    position: relative;
+    text-align: end;
+    color: #fff; /* Color de texto */
+    padding: 20px;
+    z-index: 1; /* Coloca el contenido sobre la imagen de fondo */
+    left: 0;
+    top: 10em;
+}
+
+.guitarra-fondo h2 {
+    font-family: Arial, sans-serif;
+    font-size: 5em;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: end;
+    padding: 10px 0;
+    font-weight: bold; /* Agregamos negrita al texto */
+}
+
+.boton-comprar {
+    display: inline-block;
+    color: #ffffff; /* Cambiado a color blanco para mejorar la visibilidad del texto */
+    padding: 17px 50px; /* Ajusta según sea necesario */
+    text-decoration: none;
+    margin-top: 20px; /* Ajusta según sea necesario */
+    margin-right: 20px; /* Ajusta según sea necesario */
+    font-size: 1em; /* Ajusta según sea necesario */
+    background-color: #000000; /* Cambiado a color negro para mejorar el contraste */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Agregada transición suave */
+}
+
+.boton-comprar:hover {
+    background-color: #ffffff; /* Cambiado a un tono más oscuro al pasar el mouse */
+    color: #000000; /* Cambiado a color blanco en el hover para mejorar la visibilidad */
+  }
+
+.container-fondo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 30em;
+    z-index: 0; /* Coloca la imagen de fondo detrás del contenido */
+    object-fit: cover;
+    margin-top: 5em;
+}
+

@@ -1,0 +1,120 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Cambia 'Roboto' por la fuente que desees */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 98vh;
+    background: black;
+    overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
+}
+
+form {
+    box-shadow: 0 0 20px #00000033;
+    padding: 51px 33px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 23.5em;
+    height: 30em;
+    background-color: #fff;
+}
+
+form h2 {
+    font-size: 1.5em;
+    color: #000000; /* Rojo oscuro */
+    margin: 0;
+}
+
+form p {
+    font-size: 1.1em;
+    color: #3f3f3f;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+input {
+    color: #0D0D0D;
+    padding: 18px 15px 13px 60px;
+    width: 95%;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 1em #00000066;
+    outline: none;
+    font-size: 1em;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #BBBBe2;
+}
+
+.input-icon {
+    position: absolute;
+    height: 19px; /* Ajusta la altura según tus preferencias */
+    width: 27px;  /* Ajusta el ancho según tus preferencias */
+    left: 20px;
+    top: 55%;
+    transform: translateY(-55%);
+    color: #000000; /* Color del icono */
+}
+
+.btn {
+    padding: 15px;
+    background: #ff0000;
+    box-shadow: 0 0 1em #ff0000;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    width: 27em;
+}
+
+.btn:hover {
+    background: #970000;
+}
+
+
+.error {
+    position: absolute;
+    top: 50em;
+    color: #c50000;
+    font-size: .7em;
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .input-wrapper {
+        position: relative;
+        width: 88%;
+        margin-bottom: 35px;
+    }
+
+    input {
+        padding: 20px 0px 20px 45px;
+    }
+
+    .input-icon {
+        height: 20px;
+        width: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+/* ESTILO DEL TITULO GUITARRA */
+.guitarra h1{
+    text-align: center; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 3em;
+    color: white;
+}
+
+/* CLASE PADRE DE PRODUCTOS */
+.productos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* CLASE HIJO DE PRODUCTOS */
+.produc{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+/* ESTILO DE IMAGENES */
+.produc img{
+    width: 14em;
+    height: 30em;
+    object-fit: cover;
+}
+
+/* ESTILO DEL NOMBRE DEL PRODUCTO */
+.productos .produc p {
+    margin: 10px 18px 0;
+    padding: 0 20px;
+    font-size: 1.2em;
+    font-weight: normal; /* Elimina la negrita */
+    color: white;
+}
+
+/* ESTILO DEL PRECIO */
+.productos .produc span.precio {
+    margin: 0;
+    padding: 0;
+    font-weight: normal; /* Elimina la negrita */
+    font-size: 15px;
+    color: #b6b6b6;
+}

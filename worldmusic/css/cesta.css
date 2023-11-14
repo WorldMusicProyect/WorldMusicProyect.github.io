@@ -1,0 +1,155 @@
+/* ESTILOS DEL CARRITO */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos del carrito */
+#carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.compras {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 3em;
+    color: white;
+}
+
+
+#lista-carrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-carrito li {
+    padding: 10px;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    font-size: 1.5em;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#comprar-btn {
+    background-color: #0dce3a;
+    color: #fff;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+#comprar-btn:hover {
+    background-color: #218838;
+}
+
+/* Estilos para el botón de eliminar */
+.eliminar-btn {
+    background-color: #dc3545; /* Color de fondo rojo */
+    color: #fff; /* Color del texto blanco */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.eliminar-btn:hover {
+    background-color: #c82333; /* Cambio de color al pasar el ratón */
+}
+
+
+#carrito-vacio {
+    position: relative;
+    text-align: center;
+    margin-top: 15em;
+}
+
+#carrito-vacio p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2em;
+    color: #ce0000;
+    margin-right: 10px; /* Ajusta el valor según sea necesario */
+}
+
+#carrito-vacio i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2em;
+    color: #ce0000;
+}
+
+
+
+
+.vertical-line {
+    width: 1px;
+    height: 77%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 79%;
+    top: 5px;
+   }
+
+   .estilizar-imagen {
+    max-width: 100%;
+    max-height: 100%;
+    width: 15em;
+    height: 20em;
+    border-radius: 1em;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+/* Agrega estilos para el contenedor detalle-carrito */
+.detalle-carrito {
+    padding: 10px; /* Espaciado interno */
+    margin-top: 10px; /* Margen superior */
+    margin-left: 15px;
+    text-align: justify;
+    display: grid;
+}
+
+/* Estilos para los párrafos dentro de detalle-carrito */
+.detalle-carrito p {
+    margin: 5px 0; /* Margen superior e inferior */
+    font-size: 18px;
+}
+
+/* Estilos para el botón eliminar dentro de detalle-carrito */
+.detalle-carrito .eliminar-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px; /* Ajusta el margen según sea necesario */
+    text-align: center;
+}
+
+/* Cambiar color al botón eliminar al pasar el ratón sobre él */
+.detalle-carrito .eliminar-btn:hover {
+    background-color: darkred;
+}
